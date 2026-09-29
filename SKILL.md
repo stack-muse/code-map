@@ -1,7 +1,7 @@
 ---
 name: code-map
-description: Produce a single markdown code-map for a repo or package — high-level design overview, tech stack, mermaid high-level architecture diagram, sequence diagrams read out of the source, an ERD when database entities exist, and a module-responsibility-path table. Renders natively on GitHub, IntelliJ and Confluence. This is a code map, not a design document: file paths and type names are allowed and wanted. Output is markdown by default, with no HTML and no publish step; `--artifact` additionally publishes the finished map as a shareable page. Trigger when user says "code map", "map this repo", "diagram this service", "what does this repo do", "sequence diagram for <service>", or names a repo/jar and asks for an overview.
-argument-hint: [repo-dir | package path | git URL] [--artifact]
+description: 'Produce a single markdown code-map for a repo or package — high-level design overview, tech stack, mermaid high-level architecture diagram, sequence diagrams read out of the source, an ERD when database entities exist, and a module-responsibility-path table. Renders natively on GitHub, IntelliJ and Confluence. This is a code map, not a design document: file paths and type names are allowed and wanted. Output is markdown by default, with no HTML and no publish step; `--artifact` additionally publishes the finished map as a shareable page. Trigger when user says "code map", "map this repo", "diagram this service", "what does this repo do", "sequence diagram for <service>", or names a repo/jar and asks for an overview.'
+argument-hint: '[repo-dir | package path | git URL] [--artifact]'
 allowed-tools: Read, Grep, Glob, Bash, Agent, Write, Skill, Artifact
 ---
 
