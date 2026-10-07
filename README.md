@@ -116,7 +116,7 @@ The method, sections and output are the same everywhere. The agent-specific part
 3. **Write** — a fixed section order (see above), with mermaid diagrams validated against known rendering pitfalls before the file is saved.
 4. **Optional publish** (Claude Code, `--artifact`) — renders the finished markdown as a shareable page, only when explicitly requested.
 
-The shared method lives in [`references/workflow.md`](references/workflow.md); each [`adapters/<adapter>/SKILL.md`](adapters/) adds only how that agent asks questions, uses subagents and reports cost. See [`references/source-ingestion.md`](references/source-ingestion.md) for how it handles multi-repo landscapes and packaged artifacts (jar/war/zip/etc.) instead of a plain local checkout.
+The shared method lives in [`references/workflow.md`](references/workflow.md); each [`adapters/<adapter>/SKILL.md`](adapters) adds only how that agent asks questions, uses subagents and reports cost. See [`references/source-ingestion.md`](references/source-ingestion.md) for how it handles multi-repo landscapes and packaged artifacts (jar/war/zip/etc.) instead of a plain local checkout.
 
 ## Repo layout
 
