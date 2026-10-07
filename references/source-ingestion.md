@@ -1,6 +1,6 @@
 # Source ingestion
 
-For the cases `~/.claude/skills/code-map/assets` cannot just be pointed at. Work inside the scratchpad (`CM=<scratchpad>/code-map`); never write clones or extracted archives into the user's tree.
+For the cases `<skill-dir>/assets` cannot just be pointed at. `<skill-dir>` is the folder containing your SKILL.md. Work inside your scratch folder (`CM=<scratch>/code-map`); never write clones or extracted archives into the user's tree.
 
 A local repository needs nothing from this file — run the inventory on it directly.
 
